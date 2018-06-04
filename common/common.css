@@ -1,0 +1,27 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  font-family: "Source Sans Pro", Helvetica, Arial, 游ゴシック体, YuGothic, メイリオ, Meiryo, sans-serif;
+}
+
+header{
+  background: rgb(40,167,69);
+  padding: 15px;
+  color: #FFF;
+  border-bottom: 2px solid #FFF;
+}
+
+footer {
+  flex-shrink: 0;
+  padding: 20px;
+  background: rgb(40,167,69);
+  color: #FFF;
+  text-align: center;
+}
